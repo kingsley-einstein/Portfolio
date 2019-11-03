@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col s12 m12 l12 xl12">
+    <div class="card">
+      <div class="card-content">
+        <span class="card-title orange-text">Send Mail</span>
+        <div class="row">
+            <form class="col s12 m12 l12 xl12" id="mailing_form">
+              <div class="row">
+                <div class="col input-field s12 m12 l12 xl12">
+                  <i class="material-icons prefix">subject</i>
+                  <input id="subject" type="text" name="subject" class="validate" required>
+                  <label for="subject">Subject</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col input-field s12 m12 l12 xl12">
+                  <i class="material-icons prefix">contact_mail</i>
+                  <input type="email" name="from" class="validate" id="form" required>
+                  <label for="from">From</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col input-field s12 m12 l12 xl12">
+                  <i class="material-icons prefix">email</i>
+                  <textarea id="html" name="html" class="materialize-textarea" required></textarea>
+                  <label for="html">Message</label>
+                </div>
+              </div>
+              <div class="row">
+                <button type="submit" class="col s12 m12 l12 xl12 btn btn-large waves waves-effect waves-light blue darken-2">Send <i class="material-icons">send</i></button>
+              </div>
+            </form>
+          </div>
+          <div class="row">
+            <div class="col s4 m4 l4 xl4"></div>
+            <div class="col s4 m4 l4 xl4">
+              <div id="loader" class="preloader-wrapper small">
+                <div class="spinner-layer spinner-green-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col s4 m4 l4 xl4"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

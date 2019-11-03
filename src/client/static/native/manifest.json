@@ -1,0 +1,15 @@
+{
+  "name": "Kingsley Victor",
+  "background_color": "orange",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "orange",
+  "description": "Kingsley Victor's Portfolio App",
+  "icons": [
+    {
+      "type": "image/png",
+      "sizes": "any",
+      "src": "/img/icon.png"
+    }
+  ]
+}
