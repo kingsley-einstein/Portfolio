@@ -1,5 +1,6 @@
 {
   "name": "Kingsley Victor",
+  "short_name": "Kingsley Victor",
   "background_color": "orange",
   "start_url": "/",
   "display": "standalone",
@@ -8,7 +9,7 @@
   "icons": [
     {
       "type": "image/png",
-      "sizes": "any",
+      "sizes": "144x144",
       "src": "/img/icon.png"
     }
   ]
