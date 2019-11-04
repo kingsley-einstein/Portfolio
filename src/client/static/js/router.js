@@ -17,6 +17,7 @@ Router.prototype = {
         setTimeout(() => newRoute.loadScript(), 1000);
       }
       newRoute.render();
+      history.pushState({}, '', location.pathname + newRoute.url);
     });
   },
   navigateToDefault() {
